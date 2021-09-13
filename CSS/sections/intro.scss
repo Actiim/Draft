@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    width: 1101px;
+}
+
+.intro-bg {
+    background: #86c3d7;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    width: 1101px;
+    &__logo {}
+    &__nav-menu {}
+    &__tel {}
+}
+
+.intro-nav__intro-nav-list {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    .intro-nav-list__intro-nav-points {
+        .intro-nav__link {
+            text-decoration: none;
+        }
+    }
+}
+
+.intro-nav__intro-nav-points {}
