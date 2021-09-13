@@ -1,6 +1,7 @@
 .container {
-    margin: 0 auto;
     width: 1101px;
+    padding: 0px 80px;
+    margin: 0 auto;
 }
 
 .intro-bg {
@@ -11,23 +12,29 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-top: 24px;
-    width: 1101px;
     &__logo {}
     &__nav-menu {}
-    &__tel {}
+    &__tel {
+        display: flex;
+        text-decoration: none;
+    }
 }
 
 .intro-nav__intro-nav-list {
+    width: 634px;
     margin: 0px;
+    padding: 0px;
     display: flex;
     align-items: center;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-between;
     .intro-nav-list__intro-nav-points {
         .intro-nav__link {
             text-decoration: none;
+            font-size: 18px;
         }
     }
 }
