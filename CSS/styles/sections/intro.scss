@@ -1,55 +1,57 @@
-.intro-bg {
-    background: #86c3d7;
-    width: 100%;
-    height: 100vh;
-}
-
-.intro-section {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 24px;
-    &__tel {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        .tel__block-phone {
-            text-align: center;
-            .tel__img-icon {
+        .intro-bg {
+            background: #86c3d7;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .intro-section {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 24px;
+            &__tel-intro {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+            }
+        }
+        
+        .block-phone {
+            &__phone-img {
                 padding-right: 6px;
             }
         }
-        .tel__number {
+        
+        .tel-intro__number {
             font-size: 24px;
             font-family: AlegreyaSans-Regular;
             color: #fff;
         }
-    }
-}
-
-.intro-nav__intro-nav-list {
-    width: 634px;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    justify-content: space-between;
-    .intro-nav-list__intro-nav-points {
-        .intro-nav__link {
-            text-decoration: none;
-            font-size: 18px;
-            font-family: AlegreyaSans-Regular;
-            color: #fff;
+        
+        .intro-nav-list {
+            width: 634px;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            justify-content: space-between;
         }
-    }
-}
-
-.intro-main {}
+        
+        .intro-nav-points {
+            &__link-intro {
+                text-decoration: none;
+                font-size: 18px;
+                font-family: AlegreyaSans-Regular;
+                color: #fff;
+            }
+        }
+        
+        .intro-main {}

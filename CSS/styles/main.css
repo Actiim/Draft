@@ -30,7 +30,7 @@
           align-items: center;
   margin-top: 24px;
 }
-.header__tel {
+.header__tel-intro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,19 +39,18 @@
           align-items: center;
   text-decoration: none;
 }
-.header__tel .tel__block-phone {
-  text-align: center;
-}
-.header__tel .tel__block-phone .tel__img-icon {
+
+.block-phone__phone-img {
   padding-right: 6px;
 }
-.header__tel .tel__number {
+
+.tel-intro__number {
   font-size: 24px;
   font-family: AlegreyaSans-Regular;
   color: #fff;
 }
 
-.intro-nav__intro-nav-list {
+.intro-nav-list {
   width: 634px;
   margin: 0px;
   padding: 0px;
@@ -66,7 +65,8 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.intro-nav__intro-nav-list .intro-nav-list__intro-nav-points .intro-nav__link {
+
+.intro-nav-points__link-intro {
   text-decoration: none;
   font-size: 18px;
   font-family: AlegreyaSans-Regular;
