@@ -13,7 +13,19 @@
     &__nav-menu {}
     &__tel {
         display: flex;
+        align-items: center;
         text-decoration: none;
+        .tel__block-phone {
+            text-align: center;
+            .tel__img-icon {
+                padding-right: 6px;
+            }
+        }
+        .tel__number {
+            font-size: 24px;
+            font-family: AlegreyaSans-Regular;
+            color: #fff;
+        }
     }
 }
 
@@ -29,8 +41,8 @@
         .intro-nav__link {
             text-decoration: none;
             font-size: 18px;
+            font-family: AlegreyaSans-Regular;
+            color: #fff;
         }
     }
 }
-
-.intro-nav__intro-nav-points {}
