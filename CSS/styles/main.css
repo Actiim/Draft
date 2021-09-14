@@ -4,6 +4,12 @@
   height: 100vh;
 }
 
+.intro-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
