@@ -1,3 +1,4 @@
+        @import "settings/mixin.scss";
         .intro-bg {
             background: #86c3d7;
             width: 100%;
@@ -54,6 +55,13 @@
             }
         }
         
+        .block-all-intro-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 80%;
+        }
+        
         .intro-main-content {
             display: flex;
             flex-direction: column;
@@ -63,12 +71,43 @@
                 font-size: 48px;
                 color: #fff;
                 text-transform: uppercase;
-                padding-right: 50%;
+                margin-right: 50%;
+                line-height: 1.2em;
             }
             &__second-text {
                 font-family: AlegreyaSans-Regular;
                 font-size: 21px;
                 color: #fff;
-                padding-right: 61%;
+                margin: 5px 61% 0 0;
+            }
+        }
+        
+        .intro-main-content__button-block {
+            margin-top: 32px;
+        }
+        
+        .button-block {
+            @include button-block;
+        }
+        
+        .intro-block-icon {
+            display: flex;
+            align-items: center;
+            width: 53%;
+            justify-content: space-between;
+            &__intro-item-icon {
+                display: flex;
+                align-items: center;
+            }
+        }
+        
+        .intro-item-icon {
+            &__intro-text-content-icon {}
+            &__intro-text-content-icon {
+                margin-left: 20px;
+                font-family: AlegreyaSans-Regular;
+                font-size: 16px;
+                color: #fff;
+                width: 84px;
             }
         }

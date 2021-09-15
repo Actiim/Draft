@@ -1,0 +1,17 @@
+@mixin button-block {
+    display: block;
+    width: 156px;
+    height: 58px;
+    background: #fff;
+    color: #365a49;
+    font-family: AlegreyaSans-ExtraBold;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #365a49;
+        color: #fff;
+    }
+}
