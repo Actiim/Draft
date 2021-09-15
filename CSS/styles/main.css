@@ -66,11 +66,37 @@
           justify-content: space-between;
 }
 
-.intro-nav-points__link-intro {
+.intro-nav-item__link-intro {
   text-decoration: none;
   font-size: 18px;
   font-family: AlegreyaSans-Regular;
   color: #fff;
+}
+
+.intro-main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.intro-main-content__main-text {
+  font-family: AlegreyaSans-Bold;
+  font-size: 48px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 50%;
+}
+.intro-main-content__second-text {
+  font-family: AlegreyaSans-Regular;
+  font-size: 21px;
+  color: #fff;
+  padding-right: 61%;
 }
 
 @font-face {

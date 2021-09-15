@@ -45,7 +45,7 @@
             justify-content: space-between;
         }
         
-        .intro-nav-points {
+        .intro-nav-item {
             &__link-intro {
                 text-decoration: none;
                 font-size: 18px;
@@ -54,4 +54,21 @@
             }
         }
         
-        .intro-main {}
+        .intro-main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &__main-text {
+                font-family: AlegreyaSans-Bold;
+                font-size: 48px;
+                color: #fff;
+                text-transform: uppercase;
+                padding-right: 50%;
+            }
+            &__second-text {
+                font-family: AlegreyaSans-Regular;
+                font-size: 21px;
+                color: #fff;
+                padding-right: 61%;
+            }
+        }
